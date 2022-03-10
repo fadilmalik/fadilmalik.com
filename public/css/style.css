@@ -480,8 +480,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 1.25rem;
 }
 
-.right-5 {
-  right: 1.25rem;
+.right-2 {
+  right: 0.5rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .m-auto {
@@ -618,6 +622,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-open {
   font-family: Open Sans;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -800,4 +808,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .dark .dark\:hover\:text-slate-800:hover {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:right-5 {
+    right: 1.25rem;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
 }
